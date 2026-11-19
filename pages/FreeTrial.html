@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BistroFlow - 3-Day Free Trial Registration &amp; Sign In</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/restaurant-logo.png" alt="BistroFlow restaurant management system logo" width="100"
+            height="100">
+        <h1>BistroFlow - 3-Day Free Trial &amp; Member Sign In</h1>
+        <p>Unlock 72 hours of full access to our restaurant POS, table management, and financial reporting platform.</p>
+        <nav>
+            <ul>
+                <li><a href="/.index.html">Managar Dashboard</a></li>
+                <li><a href="Manager Dash.html">Cashier Terminal</a></li>
+                <li><a href="FreeTrial.html">Start 3-Day Free Trial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Included in Your 3-Day Free Trial</h2>
+            <p>Get instant access to our complete restaurant software suite with no credit card required:</p>
+            <ul>
+                <li>Unlimited cloud-based POS cashier terminals on tablets, desktops, or phones</li>
+                <li>Live real-time daily sales analytics and category revenue breakdown</li>
+                <li>Kitchen Display System (KDS) for kitchen line order tracking</li>
+                <li>Ingredient inventory deduction and automated low-stock warnings</li>
+                <li>Dedicated technical onboarding assistance via email and phone support</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Register for Your 3-Day Free Trial</h2>
+            <p>Fill out the form below to begin testing BistroFlow in your restaurant or bakery immediately:</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Restaurant &amp; Owner Information</legend>
+                    <p>
+                        <label for="trial-restaurant">Restaurant Name:</label>
+                        <input type="text" id="trial-restaurant" name="restaurant_name"
+                            placeholder="e.g. Bella Italia Bistro" required>
+                    </p>
+                    <p>
+                        <label for="trial-manager-name">Manager / Owner Full Name:</label>
+                        <input type="text" id="trial-manager-name" name="manager_name" placeholder="First and Last Name"
+                            required>
+                    </p>
+                    <p>
+                        <label for="trial-email">Business Email Address:</label>
+                        <input type="email" id="trial-email" name="business_email"
+                            placeholder="manager@yourrestaurant.com" required>
+                    </p>
+                    <p>
+                        <label for="trial-phone">Business Telephone Number:</label>
+                        <input type="tel" id="trial-phone" name="business_phone" placeholder="555-123-4567" required>
+                    </p>
+                    <p>
+                        <label for="trial-password">Create Account Password:</label>
+                        <input type="password" id="trial-password" name="account_password" minlength="8" required>
+                    </p>
+                    <p>
+                        <label for="trial-type">Restaurant Concept Type:</label>
+                        <select id="trial-type" name="restaurant_concept" required>
+                            <option value="">-- Select Your Business Type --</option>
+                            <option value="fine-dining">Fine Dining / Full Service</option>
+                            <option value="casual-dining">Casual Dining</option>
+                            <option value="cafe-bakery">Cafe &amp; Bakery</option>
+                            <option value="pizzeria">Pizzeria &amp; Trattoria</option>
+                            <option value="bar-pub">Bar &amp; Brewery</option>
+                            <option value="food-truck">Food Truck &amp; Pop-Up</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="trial-tables">Total Number of Tables:</label>
+                        <input type="number" id="trial-tables" name="number_of_tables" min="1" max="500" value="20"
+                            required>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="trial-terms" name="agree_terms" required>
+                        <label for="trial-terms">I accept the terms of service and request activation of my 3-day free
+                            trial.</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="submit" value="Activate My 3-Day Free Trial">
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h2>Existing Member Sign-In</h2>
+            <p>Already created your restaurant account or currently running a trial? Sign in below:</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Member Credentials</legend>
+                    <p>
+                        <label for="login-email">Registered Email Address:</label>
+                        <input type="email" id="login-email" name="login_email" placeholder="user@restaurant.com"
+                            required>
+                    </p>
+                    <p>
+                        <label for="login-password">Password:</label>
+                        <input type="password" id="login-password" name="login_password" required>
+                    </p>
+                    <p>
+                        <label for="login-role">Access Portal Role:</label>
+                        <select id="login-role" name="login_role" required>
+                            <option value="manager">Restaurant Manager</option>
+                            <option value="cashier">Register Cashier</option>
+                            <option value="chef">Kitchen Supervisor</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="submit" value="Sign In to System Portal">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BistroFlow Restaurant Management Systems. All rights reserved.</p>
+        <p>Sales inquiries and trial questions: <a href="mailto:sales@bistroflow.com">sales@bistroflow.com</a></p>
+        <p>
+            Quick Links:
+            <a href="/index.html">Manager Dashboard</a> |
+            <a href="Manager Dash.html">Cashier Terminal</a> |
+            <a href="trial.html">Start 3-Day Free Trial</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
